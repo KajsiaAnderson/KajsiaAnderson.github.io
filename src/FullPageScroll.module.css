@@ -1,0 +1,34 @@
+.intro {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    padding: 2%;
+    gap: 10%;
+}
+
+.section_black{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    padding: 2%;
+    gap: 10%;
+    background-color: rgb(27, 27, 27);
+    color: white;
+}
+
+

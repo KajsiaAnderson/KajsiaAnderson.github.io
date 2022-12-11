@@ -1,0 +1,33 @@
+.title {
+    text-align: center;
+    padding: 5%;
+    font-size: 5rem;
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.project_image{
+    opacity: 0;
+}
+
+.hike {
+    width: 25vw;
+    height: 25vh;
+    background-image: url(https://github.com/KajsiaAnderson/take-a-hike-capstone/blob/main/screenshots/take-a-hike.png?raw=true);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.tic {
+    width: 25vw;
+    height: 25vh;
+    background-image: url(https://github.com/KajsiaAnderson/tic-tac-toe/blob/main/tic-tac-toe.png?raw=true);
+    background-size: cover;
+    background-position: 50% 30%;
+}

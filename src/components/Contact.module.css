@@ -1,0 +1,35 @@
+.contact_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 100vw;
+}
+
+.title{
+    padding: 5%;
+    font-size: 4rem;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+    transition: 1s;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: white;
+    transition: 0.4s;
+    transform: scale(1.07, 1.07);
+}
+
+.links{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}

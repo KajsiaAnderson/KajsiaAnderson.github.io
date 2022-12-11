@@ -1,0 +1,24 @@
+.react_icons {
+    /* max-height: 80vh; */
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+.react_icons img{
+    width:50%;
+}
+
+.title {
+    padding: 5%;
+    margin: 5%;
+    font-size: 5rem;
+}
+
+.skill_section {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
