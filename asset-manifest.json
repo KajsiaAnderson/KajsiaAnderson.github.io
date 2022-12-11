@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.89cbd78e.css",
+    "main.js": "/static/js/main.9c97b875.js",
+    "static/js/787.a2c8367c.chunk.js": "/static/js/787.a2c8367c.chunk.js",
+    "static/media/KA-logo.png": "/static/media/KA-logo.a62c5d67c9879d9d9cba.png",
+    "index.html": "/index.html",
+    "main.89cbd78e.css.map": "/static/css/main.89cbd78e.css.map",
+    "main.9c97b875.js.map": "/static/js/main.9c97b875.js.map",
+    "787.a2c8367c.chunk.js.map": "/static/js/787.a2c8367c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89cbd78e.css",
+    "static/js/main.9c97b875.js"
+  ]
+}
