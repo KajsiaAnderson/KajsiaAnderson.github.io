@@ -8,21 +8,23 @@
 
 .title{
     padding: 5%;
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 a:link {
-    color: white;
+    color: rgb(226, 183, 72);
     text-decoration: none;
     transition: 1s;
+    font-weight:lighter;
 }
 
 a:visited {
-    color: white;
+    font-weight: lighter;
+    color: rgb(226, 183, 72);
 }
 
 a:hover {
-    color: white;
+    color: rgb(156, 61, 61);
     transition: 0.4s;
     transform: scale(1.07, 1.07);
 }
