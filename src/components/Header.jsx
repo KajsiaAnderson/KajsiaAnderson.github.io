@@ -1,15 +1,20 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
+import styles from './Header.module.css'
 
 const Header = () => {
   return (
-    <div>
+    // Todo: add header //
+    <header>
+      <nav className={styles.nav}>
         <ul>
-            <Link to="">Skills</Link>
-            <Link>Projects</Link>
-            <Link>Contact</Link>
+          <li><Link activeClass="active" smooth spy to="about">ABOUT</Link></li>
+          <li><Link activeClass="active" smooth spy to="about">SKILLS</Link></li>
+          <li><Link activeClass="active" smooth spy to="about">PROJECTS</Link></li>
+          <li><Link activeClass="active" smooth spy to="about">CONTACT</Link></li>
         </ul>
-    </div>
+      </nav>
+    </header>
   )
 }
 

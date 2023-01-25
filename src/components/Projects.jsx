@@ -1,7 +1,6 @@
 import styles from './Projects.module.css'
 import React from 'react'
 
-
 const Projects = () => {
     return (
         <div>
@@ -19,6 +18,13 @@ const Projects = () => {
                         <img className={styles.project_image}
                             src="https://github.com/KajsiaAnderson/tic-tac-toe/blob/main/tic-tac-toe.png?raw=true"
                             alt="tic-tac-toe" />
+                    </a>
+                </div>
+                <div className={styles.kookie}>
+                    <a href="https://capstone-kookies.herokuapp.com/" target="_blank" rel="noreferrer">
+                        <img className={styles.project_image}
+                            src="https://github.com/KajsiaAnderson/kookies/blob/main/wireframes/kookies.png?raw=true"
+                            alt="kookies" />
                     </a>
                 </div>
             </div>

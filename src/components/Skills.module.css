@@ -7,8 +7,9 @@
     flex-wrap: wrap;
     margin: 1rem;
 }
-.react_icons img{
-    width:60%;
+
+.react_icons img {
+    width: 60%;
 }
 
 .title {
@@ -21,4 +22,27 @@
     display: flex;
     align-items: center;
     gap: 3rem;
+}
+
+@media (max-width: 820px) {
+    .skill_section {
+        /* width: 50vw; */
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+
+    .react_icons {
+        width: 25vw;
+        height: 25vh;
+    }
+
+    .react_icons img {
+        min-width: 10vw;
+        min-height: 10vh;
+    }
 }

@@ -32,3 +32,18 @@
 }
 
 
+@media (max-width: 820px) {
+    .intro img{
+      width: 35vw;
+    }
+    .intro div{
+        width: 45vw;
+        font-size: 1rem;
+    }
+
+    .section_black {
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+  }

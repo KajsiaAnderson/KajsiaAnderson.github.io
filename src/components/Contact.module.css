@@ -35,3 +35,13 @@ a:hover {
     justify-content: center;
     gap: 3rem;
 }
+
+@media (max-width: 820px) {
+    .title {
+        font-size: 3rem;
+        width: 90%;
+    }
+    .links {
+        font-size: 3rem;
+    }
+  }
