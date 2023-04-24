@@ -20,11 +20,20 @@ const Projects = () => {
                             alt="tic-tac-toe" />
                     </a>
                 </div>
+                </div>
+                <div className={styles.project}>
                 <div className={styles.kookie}>
                     <a href="https://capstone-kookies.herokuapp.com/" target="_blank" rel="noreferrer">
                         <img className={styles.project_image}
                             src="https://github.com/KajsiaAnderson/kookies/blob/main/wireframes/kookies.png?raw=true"
                             alt="kookies" />
+                    </a>
+                </div>
+                <div className={styles.blurdle}>
+                    <a href="https://main.d2av024thp68q.amplifyapp.com/" target="_blank" rel="noreferrer">
+                        <img className={styles.project_image}
+                            src="https://github.com/KajsiaAnderson/blurdle/blob/main/images/blurImage.png?raw=true"
+                            alt="blurdle" />
                     </a>
                 </div>
             </div>
